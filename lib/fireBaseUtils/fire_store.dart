@@ -37,7 +37,7 @@ class FireStore{
         showDialog(
             context: context,
             builder: (BuildContext context) {
-              return CustomDialogBoxState(title: (format == "mp4" ? "Video" : "Text") + "Successfully Uploaded",
+              return CustomDialogBoxState(title: (format == "mp4" ? "Video" : "Text") + " Successfully Uploaded",
                   description: "You're translation has been uploaded and is visible by other users",
                   voidCallback: null);
             })
