@@ -38,7 +38,7 @@ class FireStore{
             context: context,
             builder: (BuildContext context) {
               return CustomDialogBoxState(title: (format == "mp4" ? "Video" : "Text") + " Successfully Uploaded",
-                  description: "You're translation has been uploaded and is visible by other users",
+                  description: "Your translation has been uploaded and is visible by other users",
                   voidCallback: null);
             })
 
@@ -48,7 +48,7 @@ class FireStore{
           context: context,
           builder: (BuildContext context) {
             return CustomDialogBoxState(title: "Upload Failed",
-                description: "You're translation failed to upload",
+                description: "Your translation failed to upload",
                 voidCallback: null);
           }
       );
@@ -69,7 +69,7 @@ class FireStore{
       "response_threads":
       [
         {
-          "text": "Hi, can someone please help translating this ? ",
+          "text": "Hi, can someone please help translating this? ",
           "timestamp": DateTime.now().toString(),
           "postedBy": postedBy,
           "approved": false,

@@ -101,7 +101,7 @@ class GetHelpScreenState extends State<GetHelpScreen> {
                                       showDialog(
                                           context: context,
                                           builder: (BuildContext context) {
-                                            return new CustomDialogBoxState(title: 'User Name Not Set',description: "You have to set you're username name in settings before being able to post or respond to requests");
+                                            return new CustomDialogBoxState(title: 'User Name Not Set',description: "You have to set your username name in settings before being able to post or respond to requests");
                                           });
                                     }
                                   }
@@ -137,7 +137,7 @@ class GetHelpScreenState extends State<GetHelpScreen> {
                                   showDialog(
                                       context: context,
                                       builder: (BuildContext context) {
-                                        return new CustomDialogBoxState(title: 'User Name Not Set',description: "You have to set you're username name in settings before being able to post or respond to requests");
+                                        return new CustomDialogBoxState(title: 'User Name Not Set',description: "You have to set your username name in settings before being able to post or respond to requests");
                                       });
                                 }
                               },
